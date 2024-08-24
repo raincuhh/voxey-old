@@ -17,6 +17,8 @@ int Engine::run()
 {
    std::cout << "running engine" << std::endl;
 
+   glfwSwapInterval(1);
+
    while (!glfwWindowShouldClose(mWindow))
    {
 
@@ -31,20 +33,15 @@ int Engine::run()
    return EXIT_SUCCESS;
 }
 
-bool Engine::init()
-{
-   return EXIT_SUCCESS;
-}
-
-void Engine::update(double deltaTime)
+void Engine::update([[maybe_unused]] double deltaTime)
 {
    (void)deltaTime;
 }
 
-void Engine::fixedUpdate()
+void Engine::fixedUpdate([[maybe_unused]] double deltaTime)
 {
 }
 
-void Engine::renderUpdate()
+void Engine::renderUpdate([[maybe_unused]] double deltaTime)
 {
 }

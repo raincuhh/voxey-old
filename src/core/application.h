@@ -5,6 +5,7 @@
 #include "glad/glad.h"
 #include "GLFW/glfw3.h"
 
+#include "core/logger.h"
 #include "core/engine.h"
 #include "input/inputManager.h"
 
@@ -25,6 +26,7 @@ private:
    GLFWwindow *mWindow;
    GLFWmonitor *mMonitor;
 
+   Logger *mLogger;
    Engine *mEngine;
    InputManager *mInputManager;
 

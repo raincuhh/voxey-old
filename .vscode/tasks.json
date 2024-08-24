@@ -22,6 +22,7 @@
         //core
         "${workspaceFolder}/src/core/application.cpp",
         "${workspaceFolder}/src/core/engine.cpp",
+        "${workspaceFolder}/src/core/logger.cpp",
 
         //rendering
 

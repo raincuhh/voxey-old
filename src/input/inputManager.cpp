@@ -35,6 +35,10 @@ void InputManager::handleKeyEvent(int key, int scancode, int action, int mods)
    {
       std::cout << "key pressed: " << key << std::endl;
    }
+   else if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+   {
+      // glfwSetWindowShouldClose(mWindow, GLFW_TRUE);
+   }
    else if (action == GLFW_RELEASE)
    {
    }

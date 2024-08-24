@@ -16,8 +16,7 @@ public:
    Engine(GLFWwindow *window);
    ~Engine();
    int run();
-   bool init();
-   void update(double deltaTime);
-   void fixedUpdate();
-   void renderUpdate();
+   void update(double dt);
+   void fixedUpdate(double dt);
+   void renderUpdate(double dt);
 };
