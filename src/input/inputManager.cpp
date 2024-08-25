@@ -1,16 +1,13 @@
 #include <iostream>
 #include "inputManager.h"
 
-#include "glad/glad.h"
-#include "GLFW/glfw3.h"
+#include "../../include/glad/glad.h"
+#include "../../include/GLFW/glfw3.h"
 
 InputManager::InputManager(GLFWwindow *window) : mWindow(window)
 {
    glfwSetKeyCallback(window, windowKeyCallback);
-   std::cout << "set keyCallback" << std::endl;
-
    glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
-   std::cout << "set inputMode" << std::endl;
 }
 
 void InputManager::windowKeyCallback(GLFWwindow *window, int key, int scancode, int action, int mods)
@@ -29,7 +26,6 @@ void InputManager::windowKeyCallback(GLFWwindow *window, int key, int scancode, 
 void InputManager::handleKeyEvent(int key, int scancode, int action, int mods)
 {
    (void)scancode;
-   (void)mods;
 
    if (action == GLFW_PRESS)
    {

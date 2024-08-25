@@ -1,8 +1,9 @@
 #include <iostream>
 
-#include "glad/glad.h"
-#include "GLFW/glfw3.h"
+#include "../../include/glad/glad.h"
+#include "../../include/GLFW/glfw3.h"
 
+#include "../utils/time.h"
 #include "engine.h"
 
 Engine::Engine(GLFWwindow *window) : mWindow(window)
@@ -16,20 +17,23 @@ Engine::~Engine()
 int Engine::run()
 {
    std::cout << "running engine" << std::endl;
-
    glfwSwapInterval(1);
+
+   mTime = new Time(mWindow);
 
    while (!glfwWindowShouldClose(mWindow))
    {
+      double deltaTime = mTime->getDeltaTime();
 
-      std::cout << "window open" << std::endl;
+      std::cout << deltaTime << std::endl;
+      // update(deltaTime);
 
-      glClear(GL_COLOR_BUFFER_BIT);
+      glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
       glfwSwapBuffers(mWindow);
       glfwPollEvents();
    }
 
-   glfwDestroyWindow(mWindow);
    return EXIT_SUCCESS;
 }
 
