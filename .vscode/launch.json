@@ -2,6 +2,40 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug Voxey",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/voxey",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "ignoreFailures": true,
+          "text": "-enable-pretty-printing"
+        }
+      ],
+      "preLaunchTask": "CMake Build",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "internalConsoleOptions": "openOnSessionStart",
+      "logging": {
+        "moduleLoad": false,
+        "programOutput": true
+      }
+    }
+  ]
+}
+
+/*
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
@@ -28,3 +62,4 @@
     }
   ]
 }
+*/
