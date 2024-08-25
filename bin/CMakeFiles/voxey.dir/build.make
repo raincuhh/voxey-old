@@ -68,11 +68,26 @@ include CMakeFiles/voxey.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/voxey.dir/flags.make
 
+CMakeFiles/voxey.dir/src/core/test.cpp.obj: CMakeFiles/voxey.dir/flags.make
+CMakeFiles/voxey.dir/src/core/test.cpp.obj: CMakeFiles/voxey.dir/includes_CXX.rsp
+CMakeFiles/voxey.dir/src/core/test.cpp.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/core/test.cpp
+CMakeFiles/voxey.dir/src/core/test.cpp.obj: CMakeFiles/voxey.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/voxey.dir/src/core/test.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/core/test.cpp.obj -MF CMakeFiles\voxey.dir\src\core\test.cpp.obj.d -o CMakeFiles\voxey.dir\src\core\test.cpp.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\core\test.cpp"
+
+CMakeFiles/voxey.dir/src/core/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/voxey.dir/src/core/test.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\core\test.cpp" > CMakeFiles\voxey.dir\src\core\test.cpp.i
+
+CMakeFiles/voxey.dir/src/core/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxey.dir/src/core/test.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\core\test.cpp" -o CMakeFiles\voxey.dir\src\core\test.cpp.s
+
 CMakeFiles/voxey.dir/src/core/application.cpp.obj: CMakeFiles/voxey.dir/flags.make
 CMakeFiles/voxey.dir/src/core/application.cpp.obj: CMakeFiles/voxey.dir/includes_CXX.rsp
 CMakeFiles/voxey.dir/src/core/application.cpp.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/core/application.cpp
 CMakeFiles/voxey.dir/src/core/application.cpp.obj: CMakeFiles/voxey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/voxey.dir/src/core/application.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/voxey.dir/src/core/application.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/core/application.cpp.obj -MF CMakeFiles\voxey.dir\src\core\application.cpp.obj.d -o CMakeFiles\voxey.dir\src\core\application.cpp.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\core\application.cpp"
 
 CMakeFiles/voxey.dir/src/core/application.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/voxey.dir/src/core/engine.cpp.obj: CMakeFiles/voxey.dir/flags.make
 CMakeFiles/voxey.dir/src/core/engine.cpp.obj: CMakeFiles/voxey.dir/includes_CXX.rsp
 CMakeFiles/voxey.dir/src/core/engine.cpp.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/core/engine.cpp
 CMakeFiles/voxey.dir/src/core/engine.cpp.obj: CMakeFiles/voxey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/voxey.dir/src/core/engine.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/voxey.dir/src/core/engine.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/core/engine.cpp.obj -MF CMakeFiles\voxey.dir\src\core\engine.cpp.obj.d -o CMakeFiles\voxey.dir\src\core\engine.cpp.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\core\engine.cpp"
 
 CMakeFiles/voxey.dir/src/core/engine.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/voxey.dir/src/core/logger.cpp.obj: CMakeFiles/voxey.dir/flags.make
 CMakeFiles/voxey.dir/src/core/logger.cpp.obj: CMakeFiles/voxey.dir/includes_CXX.rsp
 CMakeFiles/voxey.dir/src/core/logger.cpp.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/core/logger.cpp
 CMakeFiles/voxey.dir/src/core/logger.cpp.obj: CMakeFiles/voxey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/voxey.dir/src/core/logger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/voxey.dir/src/core/logger.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/core/logger.cpp.obj -MF CMakeFiles\voxey.dir\src\core\logger.cpp.obj.d -o CMakeFiles\voxey.dir\src\core\logger.cpp.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\core\logger.cpp"
 
 CMakeFiles/voxey.dir/src/core/logger.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj: CMakeFiles/voxey.dir/flags.
 CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj: CMakeFiles/voxey.dir/includes_CXX.rsp
 CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/input/inputManager.cpp
 CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj: CMakeFiles/voxey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj -MF CMakeFiles\voxey.dir\src\input\inputManager.cpp.obj.d -o CMakeFiles\voxey.dir\src\input\inputManager.cpp.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\input\inputManager.cpp"
 
 CMakeFiles/voxey.dir/src/input/inputManager.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj: CMakeFiles/voxey.dir/flags.
 CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj: CMakeFiles/voxey.dir/includes_CXX.rsp
 CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/rendering/renderer.cpp
 CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj: CMakeFiles/voxey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj -MF CMakeFiles\voxey.dir\src\rendering\renderer.cpp.obj.d -o CMakeFiles\voxey.dir\src\rendering\renderer.cpp.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\rendering\renderer.cpp"
 
 CMakeFiles/voxey.dir/src/rendering/renderer.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/voxey.dir/src/utils/time.cpp.obj: CMakeFiles/voxey.dir/flags.make
 CMakeFiles/voxey.dir/src/utils/time.cpp.obj: CMakeFiles/voxey.dir/includes_CXX.rsp
 CMakeFiles/voxey.dir/src/utils/time.cpp.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/utils/time.cpp
 CMakeFiles/voxey.dir/src/utils/time.cpp.obj: CMakeFiles/voxey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/voxey.dir/src/utils/time.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/voxey.dir/src/utils/time.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/utils/time.cpp.obj -MF CMakeFiles\voxey.dir\src\utils\time.cpp.obj.d -o CMakeFiles\voxey.dir\src\utils\time.cpp.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\utils\time.cpp"
 
 CMakeFiles/voxey.dir/src/utils/time.cpp.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/voxey.dir/src/main.cpp.obj: CMakeFiles/voxey.dir/flags.make
 CMakeFiles/voxey.dir/src/main.cpp.obj: CMakeFiles/voxey.dir/includes_CXX.rsp
 CMakeFiles/voxey.dir/src/main.cpp.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/main.cpp
 CMakeFiles/voxey.dir/src/main.cpp.obj: CMakeFiles/voxey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/voxey.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/voxey.dir/src/main.cpp.obj"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/main.cpp.obj -MF CMakeFiles\voxey.dir\src\main.cpp.obj.d -o CMakeFiles\voxey.dir\src\main.cpp.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\main.cpp"
 
 CMakeFiles/voxey.dir/src/main.cpp.i: cmake_force
@@ -177,7 +192,7 @@ CMakeFiles/voxey.dir/src/ext/glad.c.obj: CMakeFiles/voxey.dir/flags.make
 CMakeFiles/voxey.dir/src/ext/glad.c.obj: CMakeFiles/voxey.dir/includes_C.rsp
 CMakeFiles/voxey.dir/src/ext/glad.c.obj: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/src/ext/glad.c
 CMakeFiles/voxey.dir/src/ext/glad.c.obj: CMakeFiles/voxey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/voxey.dir/src/ext/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/voxey.dir/src/ext/glad.c.obj"
 	C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/voxey.dir/src/ext/glad.c.obj -MF CMakeFiles\voxey.dir\src\ext\glad.c.obj.d -o CMakeFiles\voxey.dir\src\ext\glad.c.obj -c "C:\Users\Filip Ryan\Downloads\important\vscode\voxey\src\ext\glad.c"
 
 CMakeFiles/voxey.dir/src/ext/glad.c.i: cmake_force
@@ -190,6 +205,7 @@ CMakeFiles/voxey.dir/src/ext/glad.c.s: cmake_force
 
 # Object files for target voxey
 voxey_OBJECTS = \
+"CMakeFiles/voxey.dir/src/core/test.cpp.obj" \
 "CMakeFiles/voxey.dir/src/core/application.cpp.obj" \
 "CMakeFiles/voxey.dir/src/core/engine.cpp.obj" \
 "CMakeFiles/voxey.dir/src/core/logger.cpp.obj" \
@@ -202,6 +218,7 @@ voxey_OBJECTS = \
 # External object files for target voxey
 voxey_EXTERNAL_OBJECTS =
 
+voxey.exe: CMakeFiles/voxey.dir/src/core/test.cpp.obj
 voxey.exe: CMakeFiles/voxey.dir/src/core/application.cpp.obj
 voxey.exe: CMakeFiles/voxey.dir/src/core/engine.cpp.obj
 voxey.exe: CMakeFiles/voxey.dir/src/core/logger.cpp.obj
@@ -215,7 +232,7 @@ voxey.exe: C:/Users/Filip\ Ryan/Downloads/important/vscode/voxey/lib/libglfw3.a
 voxey.exe: CMakeFiles/voxey.dir/linkLibs.rsp
 voxey.exe: CMakeFiles/voxey.dir/objects1.rsp
 voxey.exe: CMakeFiles/voxey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable voxey.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Filip Ryan\Downloads\important\vscode\voxey\bin\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable voxey.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\voxey.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

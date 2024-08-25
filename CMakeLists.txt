@@ -15,6 +15,7 @@ find_package(OpenGL REQUIRED)
 include_directories(${GLFW_INCLUDE_DIR})
 
 set(SOURCES
+   src/core/test.cpp
    src/core/application.cpp
    src/core/engine.cpp
    src/core/logger.cpp

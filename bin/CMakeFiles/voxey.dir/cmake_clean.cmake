@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/voxey.dir/src/core/engine.cpp.obj.d"
   "CMakeFiles/voxey.dir/src/core/logger.cpp.obj"
   "CMakeFiles/voxey.dir/src/core/logger.cpp.obj.d"
+  "CMakeFiles/voxey.dir/src/core/test.cpp.obj"
+  "CMakeFiles/voxey.dir/src/core/test.cpp.obj.d"
   "CMakeFiles/voxey.dir/src/ext/glad.c.obj"
   "CMakeFiles/voxey.dir/src/ext/glad.c.obj.d"
   "CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj"

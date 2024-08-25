@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Filip Ryan/Downloads/important/vscode/voxey/src/core/application.cpp" "CMakeFiles/voxey.dir/src/core/application.cpp.obj" "gcc" "CMakeFiles/voxey.dir/src/core/application.cpp.obj.d"
   "C:/Users/Filip Ryan/Downloads/important/vscode/voxey/src/core/engine.cpp" "CMakeFiles/voxey.dir/src/core/engine.cpp.obj" "gcc" "CMakeFiles/voxey.dir/src/core/engine.cpp.obj.d"
   "C:/Users/Filip Ryan/Downloads/important/vscode/voxey/src/core/logger.cpp" "CMakeFiles/voxey.dir/src/core/logger.cpp.obj" "gcc" "CMakeFiles/voxey.dir/src/core/logger.cpp.obj.d"
+  "C:/Users/Filip Ryan/Downloads/important/vscode/voxey/src/core/test.cpp" "CMakeFiles/voxey.dir/src/core/test.cpp.obj" "gcc" "CMakeFiles/voxey.dir/src/core/test.cpp.obj.d"
   "C:/Users/Filip Ryan/Downloads/important/vscode/voxey/src/input/inputManager.cpp" "CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj" "gcc" "CMakeFiles/voxey.dir/src/input/inputManager.cpp.obj.d"
   "C:/Users/Filip Ryan/Downloads/important/vscode/voxey/src/main.cpp" "CMakeFiles/voxey.dir/src/main.cpp.obj" "gcc" "CMakeFiles/voxey.dir/src/main.cpp.obj.d"
   "C:/Users/Filip Ryan/Downloads/important/vscode/voxey/src/rendering/renderer.cpp" "CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj" "gcc" "CMakeFiles/voxey.dir/src/rendering/renderer.cpp.obj.d"

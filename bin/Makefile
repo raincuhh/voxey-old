@@ -200,6 +200,30 @@ src/core/logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\voxey.dir\build.make CMakeFiles/voxey.dir/src/core/logger.cpp.s
 .PHONY : src/core/logger.cpp.s
 
+src/core/test.obj: src/core/test.cpp.obj
+.PHONY : src/core/test.obj
+
+# target to build an object file
+src/core/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voxey.dir\build.make CMakeFiles/voxey.dir/src/core/test.cpp.obj
+.PHONY : src/core/test.cpp.obj
+
+src/core/test.i: src/core/test.cpp.i
+.PHONY : src/core/test.i
+
+# target to preprocess a source file
+src/core/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voxey.dir\build.make CMakeFiles/voxey.dir/src/core/test.cpp.i
+.PHONY : src/core/test.cpp.i
+
+src/core/test.s: src/core/test.cpp.s
+.PHONY : src/core/test.s
+
+# target to generate assembly for a file
+src/core/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\voxey.dir\build.make CMakeFiles/voxey.dir/src/core/test.cpp.s
+.PHONY : src/core/test.cpp.s
+
 src/ext/glad.obj: src/ext/glad.c.obj
 .PHONY : src/ext/glad.obj
 
@@ -338,6 +362,9 @@ help:
 	@echo ... src/core/logger.obj
 	@echo ... src/core/logger.i
 	@echo ... src/core/logger.s
+	@echo ... src/core/test.obj
+	@echo ... src/core/test.i
+	@echo ... src/core/test.s
 	@echo ... src/ext/glad.obj
 	@echo ... src/ext/glad.i
 	@echo ... src/ext/glad.s

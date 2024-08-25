@@ -1,9 +1,18 @@
-#include "../src/core/application.h"
+// #include "../src/core/application.h"
+// #include "core/application.h"
+#include "test.h"
 
 int main()
 {
-   Application *application = new Application();
-   int result = application->run();
-   delete application;
+   test *Test = new test;
+   int result = Test->run();
+
+   delete Test;
+
+   // Application *application;
+   // int result = application->run();
+   // delete application;
+   // return result;
+
    return result;
 }
