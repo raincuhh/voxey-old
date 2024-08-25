@@ -6,7 +6,7 @@
 #include "../utils/time.h"
 #include "engine.h"
 
-Engine::Engine(GLFWwindow *window) : mWindow(window)
+Engine::Engine(GLFWwindow *window) : mWindow(window), mEngine(nullptr), mTime(nullptr)
 {
 }
 

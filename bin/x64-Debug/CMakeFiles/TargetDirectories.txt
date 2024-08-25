@@ -1,0 +1,3 @@
+C:/Users/Filip Ryan/source/repos/raincuhh/voxey/bin/x64-Debug/CMakeFiles/voxey.dir
+C:/Users/Filip Ryan/source/repos/raincuhh/voxey/bin/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Filip Ryan/source/repos/raincuhh/voxey/bin/x64-Debug/CMakeFiles/rebuild_cache.dir

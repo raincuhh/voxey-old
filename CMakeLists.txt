@@ -1,7 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
-project(Voxey)
+project(voxey)
 
 set(CMAKE_CXX_STANDARD 17)
+
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib) 
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib) 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 set(GLFW_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
 set(GLFW_LIB_DIR ${PROJECT_SOURCE_DIR}/lib)
@@ -15,7 +19,6 @@ find_package(OpenGL REQUIRED)
 include_directories(${GLFW_INCLUDE_DIR})
 
 set(SOURCES
-   src/core/test.cpp
    src/core/application.cpp
    src/core/engine.cpp
    src/core/logger.cpp

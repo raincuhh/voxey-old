@@ -1,3 +1,0 @@
-C:/Users/Filip Ryan/Downloads/important/vscode/voxey/bin/CMakeFiles/voxey.dir
-C:/Users/Filip Ryan/Downloads/important/vscode/voxey/bin/CMakeFiles/edit_cache.dir
-C:/Users/Filip Ryan/Downloads/important/vscode/voxey/bin/CMakeFiles/rebuild_cache.dir
